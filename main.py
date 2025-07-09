@@ -4,7 +4,7 @@ import google.generativeai as genai
 from prompts import build_prompt
 
 # Configuration de l’API Gemini
-genai.configure(api_key="AIzaSyBKn1h_kSWzXyuTB8PkWE343RZW0-ZLgpw")  # Remplacez par votre clé API Gemini
+genai.configure(api_key="Ecrire votre clé api")  # Remplacez par votre clé API Gemini
 
 def generate_business_ideas(domain: str):
     model = genai.GenerativeModel("gemini-1.5-flash")
